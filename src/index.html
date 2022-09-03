@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/aos/dist/aos.css">
+    <script src="../node_modules/aos/dist/aos.js" defer></script>
+    <script src="../src/main.js" defer></script>
+    <link rel="stylesheet" href="../dist/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body class="font-inter bg-gray-900 text-gray-300 tracking-tight">
+    <div class="flex flex-col min-h-screen overflow-x-hidden ">
+        <header class="absolute w-full z-38 pt-5">
+            <div class="max-w-6xl mx-auto px-4">
+                <nav class="flex justify-between py-27">
+                    <div class="w-8 h-8">
+                        <img alt="logo" src="./assets/Logo.svg">
+                    </div>
+                    <ul class="flex items-center space-x-10">
+                        <li><a href="#" class ="hover:text-gray-100"> Features</a></li>
+                        <li><a href="#" class ="hover:text-gray-100"> Blog</a></li>
+                        <li><a href="#" class ="hover:text-gray-100"> Pricing</a></li>
+                        <li><a href="#" class ="hover:text-gray-100"> About us</a></li>
+                        <li><a href="#" class ="hover:text-gray-100"> Support</a></li>
+                        <li class ="group relative">
+                            <a href="#" class="hover:text-gray-100" class ="space-x-1">
+                               <span>Support</span>
+                               <i class="fa-solid fa-angle-down transform group-hover:rotate-180 "></i>
+                            </a>
+                             <!-- sub menu of support -->
+                             <ul class="absolute hidden group-hover:block group-hover:animate-fade-submenu">
+                                 <li><a class="hover:text-gray-100">contact us</a></li>
+                                 <li><a class="hover:text-gray-100">help me</a></li>
+                                 <li><a class="hover:text-gray-100">404</a></li>
+                             </ul>
+                        </li>
+                    </ul>
+                    <ul class="flex items-center">
+                        <li>
+                            <button class="py-2 px-5 ">Sign In</button>
+                        </li>
+                        <li>
+                            <button class="py-2 px-5 bg-purple-600">Sign Up</button>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        <main class ="grow">
+            <section class ="max-w-6xl text-center mx-auto mt-40">
+                <h1 class ="text-[52px] text-gray-200" data-aos="fade-up">Landing template for startups</h1>
+                <p class="20px text-gray-400 pt-4" data-aos="fade-up">Our landing page template works on all devices, so you only have to 
+                    set it up once, and get beautiful results forever.</p>
+                <div class="mx-auto pt-8" data-aos="fade-right" >
+                    <button class ="btn shadow-sm bg-purple-600">Start free trial</button>
+                    <button class ="btn shadow-sm bg-gray-700">Learn more</button>
+                </div>
+            </section>
+
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
